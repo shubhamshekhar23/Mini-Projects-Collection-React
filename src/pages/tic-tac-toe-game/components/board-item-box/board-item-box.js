@@ -15,8 +15,7 @@ export default function BoardItemBox({
   function getClassName() {
     let strClass = [styles.board_item];
     if (!isUsed) return strClass;
-    if (markedBy == 1) strClass.push(styles.green_item);
-    if (markedBy == 2) strClass.push(styles.red_item);
+    strClass.push(styles.green_item);
 
     return strClass.join(" ");
   }

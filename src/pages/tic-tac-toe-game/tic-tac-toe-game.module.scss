@@ -1,0 +1,9 @@
+.tic_tac_container {
+  height: 100vh;
+  width: 100vw;
+  background-color: cadetblue;
+  display: grid;
+  place-content: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}

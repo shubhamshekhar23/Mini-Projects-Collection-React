@@ -1,25 +1,30 @@
 export function checkAndUpdateCross(dummyBoard, position) {
   const { rowIndex, colIndex } = position;
 
-  checkAnUpdateForVerticalLine(dummyBoard, colIndex);
-  checkAnUpdateForHorizontalLine(dummyBoard, rowIndex);
-  checkForLeftAndRightCross(dummyBoard);
+  let isWin1 = checkAnUpdateForVerticalLine(dummyBoard, colIndex);
+  let isWin2 = checkAnUpdateForHorizontalLine(dummyBoard, rowIndex);
+  let isWin3 = checkForLeftAndRightCross(dummyBoard);
+
+  return isWin1 || isWin2 || isWin3;
 }
 
-function checkForLeftAndRightCross(dummyBoard) {}
+function checkForLeftAndRightCross(dummyBoard) {
+  /* to be implemented */
+}
 
 function checkAnUpdateForVerticalLine(dummyBoard, colIndex) {
   let markedBy = dummyBoard[0][colIndex].markedBy;
 
   for (let index = 0; index < 3; index++) {
     const item = dummyBoard[index][colIndex];
-    if (item.markedBy !== markedBy) return;
+    if (item.markedBy !== markedBy) return false;
   }
 
   for (let index = 0; index < 3; index++) {
     const item = dummyBoard[index][colIndex];
     item.isUsed = true;
   }
+  return true;
 }
 
 function checkAnUpdateForHorizontalLine(dummyBoard, rowIndex) {
@@ -27,11 +32,12 @@ function checkAnUpdateForHorizontalLine(dummyBoard, rowIndex) {
 
   for (let index = 0; index < 3; index++) {
     const item = dummyBoard[rowIndex][index];
-    if (item.markedBy !== markedBy) return;
+    if (item.markedBy !== markedBy) return false;
   }
 
   for (let index = 0; index < 3; index++) {
     const item = dummyBoard[rowIndex][index];
     item.isUsed = true;
   }
+  return true;
 }
