@@ -1,0 +1,17 @@
+.board_item {
+  height: 100px;
+  width: 100px;
+  background-color: gray;
+  border: 1px solid black;
+  font-size: 50px;
+  display: grid;
+  place-content: center;
+}
+
+.green_item {
+  background-color: green;
+}
+
+.red_item {
+  background-color: red;
+}
