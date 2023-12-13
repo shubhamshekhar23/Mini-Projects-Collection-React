@@ -27,6 +27,9 @@ export default function Home() {
           <li>
             <Link href="/generate-table">generate-table</Link>
           </li>
+          <li>
+            <Link href="/progress-bar">progress-bar</Link>
+          </li>
           {/* coming soon */}
           <h3>Coming soon below ....</h3>
           <li>

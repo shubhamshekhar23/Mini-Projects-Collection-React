@@ -33,6 +33,10 @@ const nextConfig = {
         source: "/generate-table",
         destination: "/generate-table/generate-table",
       },
+      {
+        source: "/progress-bar",
+        destination: "/progress-bar/progress-bar",
+      },
     ];
   },
 };
