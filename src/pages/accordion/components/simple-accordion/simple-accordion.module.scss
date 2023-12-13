@@ -1,0 +1,36 @@
+.simple_accordion_container {
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.accordion_header {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.accordion_header__open {
+  border-bottom: 1px solid black;
+  .chevron {
+    transform: rotate(-90deg);
+  }
+}
+
+.chevron {
+  transform: rotate(90deg);
+}
+
+.accordion_body {
+  border-bottom: 1px solid black;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.2s ease;
+}
+
+.accordion_body.accordion_body__open {
+  max-height: 300px;
+  overflow: auto;
+  transition: all 1s ease;
+}

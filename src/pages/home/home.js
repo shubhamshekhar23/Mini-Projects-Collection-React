@@ -15,6 +15,10 @@ export default function Home() {
           <li>
             <Link href="/tic-tac-toe-game">Tic tac toe game</Link>
           </li>
+          <li>
+            <Link href="/accordion">Accordion</Link>
+          </li>
+          {/* coming soon */}
           <h3>Coming soon below ....</h3>
           <li>
             <Link href="/typehead">Google like typehead</Link>

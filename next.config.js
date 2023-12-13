@@ -17,6 +17,10 @@ const nextConfig = {
         source: "/tic-tac-toe-game",
         destination: "/tic-tac-toe-game/tic-tac-toe-game",
       },
+      {
+        source: "/accordion",
+        destination: "/accordion/accordion",
+      },
     ];
   },
 };
