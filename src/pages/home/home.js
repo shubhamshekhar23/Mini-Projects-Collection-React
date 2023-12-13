@@ -33,6 +33,9 @@ export default function Home() {
           <li>
             <Link href="/progress-bars">progress-bars</Link>
           </li>
+          <li>
+            <Link href="/temperature-converter">temperature-converter</Link>
+          </li>
           {/* coming soon */}
           <h3>Coming soon below ....</h3>
           <li>

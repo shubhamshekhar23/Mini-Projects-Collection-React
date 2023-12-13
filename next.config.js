@@ -41,6 +41,10 @@ const nextConfig = {
         source: "/progress-bars",
         destination: "/progress-bars/progress-bars",
       },
+      {
+        source: "/temperature-converter",
+        destination: "/temperature-converter/temperature-converter",
+      },
     ];
   },
 };
