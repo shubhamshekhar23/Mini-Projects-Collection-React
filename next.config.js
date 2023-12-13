@@ -37,6 +37,10 @@ const nextConfig = {
         source: "/progress-bar",
         destination: "/progress-bar/progress-bar",
       },
+      {
+        source: "/progress-bars",
+        destination: "/progress-bars/progress-bars",
+      },
     ];
   },
 };

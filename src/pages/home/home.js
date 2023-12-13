@@ -30,6 +30,9 @@ export default function Home() {
           <li>
             <Link href="/progress-bar">progress-bar</Link>
           </li>
+          <li>
+            <Link href="/progress-bars">progress-bars</Link>
+          </li>
           {/* coming soon */}
           <h3>Coming soon below ....</h3>
           <li>
