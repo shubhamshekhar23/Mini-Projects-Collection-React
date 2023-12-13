@@ -10,19 +10,22 @@ export default function Home() {
             <Link href="/">Home</Link>
           </li>
           <li>
-            <Link href="/memory-card-game">Memoru Card Game</Link>
+            <Link href="/memory-card-game">memory-card-game</Link>
           </li>
           <li>
-            <Link href="/tic-tac-toe-game">Tic tac toe game</Link>
+            <Link href="/tic-tac-toe-game">tic-tac-toe-game</Link>
           </li>
           <li>
-            <Link href="/accordion">Accordion</Link>
+            <Link href="/accordion">accordion</Link>
           </li>
           <li>
-            <Link href="/contact-form">Contact Form</Link>
+            <Link href="/contact-form">contact-form</Link>
           </li>
           <li>
             <Link href="/flight-booker">flight-booker</Link>
+          </li>
+          <li>
+            <Link href="/generate-table">generate-table</Link>
           </li>
           {/* coming soon */}
           <h3>Coming soon below ....</h3>

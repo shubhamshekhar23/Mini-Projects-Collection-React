@@ -1,0 +1,19 @@
+.table_generated_container {
+  td {
+    border: 1px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 50px;
+    width: 50px;
+    display: grid;
+    place-content: center;
+  }
+  tr {
+    display: flex;
+    flex-direction: column;
+  }
+  tbody {
+    display: flex;
+    border: 1px solid black;
+  }
+}

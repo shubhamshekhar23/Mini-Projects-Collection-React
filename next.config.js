@@ -29,6 +29,10 @@ const nextConfig = {
         source: "/flight-booker",
         destination: "/flight-booker/flight-booker",
       },
+      {
+        source: "/generate-table",
+        destination: "/generate-table/generate-table",
+      },
     ];
   },
 };
