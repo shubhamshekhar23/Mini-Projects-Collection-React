@@ -21,6 +21,9 @@ export default function Home() {
           <li>
             <Link href="/contact-form">Contact Form</Link>
           </li>
+          <li>
+            <Link href="/flight-booker">flight-booker</Link>
+          </li>
           {/* coming soon */}
           <h3>Coming soon below ....</h3>
           <li>

@@ -25,6 +25,10 @@ const nextConfig = {
         source: "/contact-form",
         destination: "/contact-form/contact-form",
       },
+      {
+        source: "/flight-booker",
+        destination: "/flight-booker/flight-booker",
+      },
     ];
   },
 };
