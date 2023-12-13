@@ -18,6 +18,9 @@ export default function Home() {
           <li>
             <Link href="/accordion">Accordion</Link>
           </li>
+          <li>
+            <Link href="/contact-form">Contact Form</Link>
+          </li>
           {/* coming soon */}
           <h3>Coming soon below ....</h3>
           <li>

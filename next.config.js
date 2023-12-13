@@ -21,6 +21,10 @@ const nextConfig = {
         source: "/accordion",
         destination: "/accordion/accordion",
       },
+      {
+        source: "/contact-form",
+        destination: "/contact-form/contact-form",
+      },
     ];
   },
 };
