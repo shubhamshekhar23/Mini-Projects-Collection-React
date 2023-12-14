@@ -81,6 +81,10 @@ const nextConfig = {
         source: "/traffic-light",
         destination: "/traffic-light/traffic-light",
       },
+      {
+        source: "/star-rating",
+        destination: "/star-rating/star-rating",
+      },
     ];
   },
 };

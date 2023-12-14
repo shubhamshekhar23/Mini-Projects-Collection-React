@@ -1,0 +1,10 @@
+.star_item_container {
+  .star_icon {
+    height: 40px;
+  }
+  .star_icon_fill {
+    fill: yellow;
+  }
+  display: inline-block;
+  cursor: pointer;
+}

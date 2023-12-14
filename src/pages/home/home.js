@@ -63,6 +63,9 @@ export default function Home() {
           <li>
             <Link href="/traffic-light">traffic-light</Link>
           </li>
+          <li>
+            <Link href="/star-rating">star-rating</Link>
+          </li>
 
           {/* coming soon */}
           <h3>Coming soon below ....</h3>
