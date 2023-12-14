@@ -45,6 +45,10 @@ const nextConfig = {
         source: "/temperature-converter",
         destination: "/temperature-converter/temperature-converter",
       },
+      {
+        source: "/mortgage-calculator",
+        destination: "/mortgage-calculator/mortgage-calculator",
+      },
     ];
   },
 };
