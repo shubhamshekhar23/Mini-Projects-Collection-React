@@ -39,6 +39,9 @@ export default function Home() {
           <li>
             <Link href="/mortgage-calculator">mortgage-calculator</Link>
           </li>
+          <li>
+            <Link href="/tweet">tweet</Link>
+          </li>
           {/* coming soon */}
           <h3>Coming soon below ....</h3>
           <li>

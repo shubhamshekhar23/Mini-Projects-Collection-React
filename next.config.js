@@ -49,6 +49,10 @@ const nextConfig = {
         source: "/mortgage-calculator",
         destination: "/mortgage-calculator/mortgage-calculator",
       },
+      {
+        source: "/tweet",
+        destination: "/tweet/tweet",
+      },
     ];
   },
 };
