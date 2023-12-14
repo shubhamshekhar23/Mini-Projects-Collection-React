@@ -1,5 +1,8 @@
 .grid_lights_container_container {
   padding: 5px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
 }
 .empty_box {
   width: 100px;

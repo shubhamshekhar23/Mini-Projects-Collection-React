@@ -40,23 +40,17 @@ export default function GridLightsContainer(props) {
 
   return (
     <main className={styles.grid_lights_container_container}>
-      <div className={styles.flex_row}>
-        <GridItemBox itemId={0} onClick={handleClick} activeMap={activeMap} />
-        <GridItemBox itemId={1} onClick={handleClick} activeMap={activeMap} />
-        <GridItemBox itemId={2} onClick={handleClick} activeMap={activeMap} />
-      </div>
+      <GridItemBox itemId={0} onClick={handleClick} activeMap={activeMap} />
+      <GridItemBox itemId={1} onClick={handleClick} activeMap={activeMap} />
+      <GridItemBox itemId={2} onClick={handleClick} activeMap={activeMap} />
 
-      <div className={styles.flex_row}>
-        <GridItemBox itemId={3} onClick={handleClick} activeMap={activeMap} />
-        <div className={styles.empty_box}></div>
-        <GridItemBox itemId={4} onClick={handleClick} activeMap={activeMap} />
-      </div>
+      <GridItemBox itemId={3} onClick={handleClick} activeMap={activeMap} />
+      <div className={styles.empty_box}></div>
+      <GridItemBox itemId={4} onClick={handleClick} activeMap={activeMap} />
 
-      <div className={styles.flex_row}>
-        <GridItemBox itemId={5} onClick={handleClick} activeMap={activeMap} />
-        <GridItemBox itemId={6} onClick={handleClick} activeMap={activeMap} />
-        <GridItemBox itemId={7} onClick={handleClick} activeMap={activeMap} />
-      </div>
+      <GridItemBox itemId={5} onClick={handleClick} activeMap={activeMap} />
+      <GridItemBox itemId={6} onClick={handleClick} activeMap={activeMap} />
+      <GridItemBox itemId={7} onClick={handleClick} activeMap={activeMap} />
     </main>
   );
 }
