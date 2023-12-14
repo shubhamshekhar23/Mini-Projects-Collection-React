@@ -57,6 +57,10 @@ const nextConfig = {
         source: "/tabs",
         destination: "/tabs/tabs",
       },
+      {
+        source: "/analog-clock",
+        destination: "/analog-clock/analog-clock",
+      },
     ];
   },
 };

@@ -1,0 +1,64 @@
+.analog_clock_container_container {
+  .clock_boundary {
+    height: 300px;
+    width: 300px;
+    border: 3px solid lightgray;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+  }
+  .container {
+    width: 10px;
+    height: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.hour_hand {
+  width: 10px;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  .hour_hand_item {
+    height: 30%;
+    width: 100%;
+    background-color: gray;
+    transform-origin: bottom;
+  }
+}
+
+.minute_hand {
+  width: 5px;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  .minute_hand_item {
+    height: 60%;
+    width: 100%;
+    background-color: gray;
+    transform-origin: bottom;
+  }
+}
+.second_hand {
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  .second_hand_item {
+    height: 80%;
+    width: 100%;
+    background-color: gray;
+    transform-origin: bottom;
+  }
+}
