@@ -37,6 +37,9 @@ export default function Home() {
             <Link href="/progress-bars-2">progress-bars-2</Link>
           </li>
           <li>
+            <Link href="/progress-bars-3">progress-bars-3</Link>
+          </li>
+          <li>
             <Link href="/temperature-converter">temperature-converter</Link>
           </li>
           <li>
