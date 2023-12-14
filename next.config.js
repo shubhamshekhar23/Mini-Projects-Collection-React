@@ -61,6 +61,10 @@ const nextConfig = {
         source: "/analog-clock",
         destination: "/analog-clock/analog-clock",
       },
+      {
+        source: "/grid-lights",
+        destination: "/grid-lights/grid-lights",
+      },
     ];
   },
 };
