@@ -9,7 +9,7 @@ export default function BoardItemBox({
 }) {
   function getValue() {
     if (markedBy == 1) return "O";
-    if (markedBy == 2) return "*";
+    if (markedBy == 2) return "X";
   }
 
   function getClassName() {
