@@ -42,6 +42,9 @@ export default function Home() {
           <li>
             <Link href="/tweet">tweet</Link>
           </li>
+          <li>
+            <Link href="/tabs">tabs</Link>
+          </li>
           {/* coming soon */}
           <h3>Coming soon below ....</h3>
           <li>

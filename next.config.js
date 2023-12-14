@@ -53,6 +53,10 @@ const nextConfig = {
         source: "/tweet",
         destination: "/tweet/tweet",
       },
+      {
+        source: "/tabs",
+        destination: "/tabs/tabs",
+      },
     ];
   },
 };

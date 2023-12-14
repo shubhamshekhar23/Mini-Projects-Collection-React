@@ -1,0 +1,25 @@
+.tabs_container_container {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-content: center;
+  button {
+    padding: 10px;
+    border: none;
+    background-color: lightgray;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .tab_group {
+    display: flex;
+    gap: 10px;
+  }
+  .active_btn {
+    background-color: aquamarine;
+  }
+}
+
+.content {
+  width: 50vw;
+  height: 400px;
+}
