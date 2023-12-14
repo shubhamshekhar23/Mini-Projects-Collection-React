@@ -1,0 +1,14 @@
+.stopwatch_section {
+  display: flex;
+  gap: 20px;
+  .time {
+    display: flex;
+    justify-content: end;
+    align-items: baseline;
+    gap: 5px;
+    font-size: 80px;
+    span {
+      font-size: 30px;
+    }
+  }
+}

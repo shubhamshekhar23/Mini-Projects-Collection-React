@@ -57,6 +57,10 @@ export default function Home() {
           <li>
             <Link href="/grid-lights">grid-lights</Link>
           </li>
+          <li>
+            <Link href="/stop-watch">stop-watch</Link>
+          </li>
+
           {/* coming soon */}
           <h3>Coming soon below ....</h3>
           <li>

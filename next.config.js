@@ -73,6 +73,10 @@ const nextConfig = {
         source: "/grid-lights",
         destination: "/grid-lights/grid-lights",
       },
+      {
+        source: "/stop-watch",
+        destination: "/stop-watch/stop-watch",
+      },
     ];
   },
 };
