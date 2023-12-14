@@ -77,6 +77,10 @@ const nextConfig = {
         source: "/stop-watch",
         destination: "/stop-watch/stop-watch",
       },
+      {
+        source: "/traffic-light",
+        destination: "/traffic-light/traffic-light",
+      },
     ];
   },
 };

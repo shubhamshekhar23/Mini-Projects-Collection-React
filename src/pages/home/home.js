@@ -60,6 +60,9 @@ export default function Home() {
           <li>
             <Link href="/stop-watch">stop-watch</Link>
           </li>
+          <li>
+            <Link href="/traffic-light">traffic-light</Link>
+          </li>
 
           {/* coming soon */}
           <h3>Coming soon below ....</h3>

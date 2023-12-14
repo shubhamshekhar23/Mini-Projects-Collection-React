@@ -1,0 +1,30 @@
+.traffic_light_container_container {
+  .traffic_box {
+    height: 200px;
+    width: 50px;
+    padding: 10px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+  }
+
+  .traffic_item {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: gray;
+  }
+  .green {
+    background-color: green;
+  }
+  .yellow {
+    background-color: yellow;
+  }
+  .red {
+    background-color: red;
+  }
+}
