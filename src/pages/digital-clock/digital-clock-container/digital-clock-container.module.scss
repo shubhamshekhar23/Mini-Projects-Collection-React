@@ -1,0 +1,13 @@
+.digital_clock_container_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  background-color: antiquewhite;
+  width: 100%;
+  padding: 30px;
+  box-sizing: border-box;
+  span {
+    font-size: 100px;
+  }
+}

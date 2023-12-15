@@ -89,6 +89,10 @@ const nextConfig = {
         source: "/undoable-counter",
         destination: "/undoable-counter/undoable-counter",
       },
+      {
+        source: "/digital-clock",
+        destination: "/digital-clock/digital-clock",
+      },
     ];
   },
 };

@@ -69,6 +69,9 @@ export default function Home() {
           <li>
             <Link href="/undoable-counter">undoable-counter</Link>
           </li>
+          <li>
+            <Link href="/digital-clock">digital-clock</Link>
+          </li>
 
           {/* coming soon */}
           <h3>Coming soon below ....</h3>
