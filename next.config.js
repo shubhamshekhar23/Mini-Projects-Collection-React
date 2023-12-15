@@ -85,6 +85,10 @@ const nextConfig = {
         source: "/star-rating",
         destination: "/star-rating/star-rating",
       },
+      {
+        source: "/undoable-counter",
+        destination: "/undoable-counter/undoable-counter",
+      },
     ];
   },
 };
