@@ -93,6 +93,10 @@ const nextConfig = {
         source: "/digital-clock",
         destination: "/digital-clock/digital-clock",
       },
+      {
+        source: "/to-do-list",
+        destination: "/to-do-list/to-do-list",
+      },
     ];
   },
 };

@@ -72,6 +72,9 @@ export default function Home() {
           <li>
             <Link href="/digital-clock">digital-clock</Link>
           </li>
+          <li>
+            <Link href="/to-do-list">to-do-list</Link>
+          </li>
 
           {/* coming soon */}
           <h3>Coming soon below ....</h3>

@@ -1,0 +1,18 @@
+.to_do_list_container_container {
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    button {
+      width: 100px;
+    }
+    margin-bottom: 20px;
+  }
+}
+.list_item {
+  display: flex;
+  gap: 10px;
+  width: 300px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
