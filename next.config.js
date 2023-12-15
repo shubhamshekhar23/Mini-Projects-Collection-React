@@ -97,6 +97,10 @@ const nextConfig = {
         source: "/to-do-list",
         destination: "/to-do-list/to-do-list",
       },
+      {
+        source: "/whack-mole-game",
+        destination: "/whack-mole-game/whack-mole-game",
+      },
     ];
   },
 };
