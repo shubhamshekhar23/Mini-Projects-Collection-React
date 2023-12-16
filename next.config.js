@@ -105,6 +105,10 @@ const nextConfig = {
         source: "/transfer-list",
         destination: "/transfer-list/transfer-list",
       },
+      {
+        source: "/job-board",
+        destination: "/job-board/job-board",
+      },
     ];
   },
 };

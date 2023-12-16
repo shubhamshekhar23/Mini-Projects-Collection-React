@@ -1,0 +1,14 @@
+.job_post_item_container {
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: bisque;
+  border-radius: 5px;
+  h5 {
+    margin: 5px 0;
+  }
+  p {
+    margin: 5px 0;
+    color: gray;
+  }
+}

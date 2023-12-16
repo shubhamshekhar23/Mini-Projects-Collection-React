@@ -81,6 +81,9 @@ export default function Home() {
           <li>
             <Link href="/transfer-list">transfer-list</Link>
           </li>
+          <li>
+            <Link href="/job-board">job-board</Link>
+          </li>
 
           {/* coming soon */}
           <h3>Coming soon below ....</h3>
