@@ -100,20 +100,6 @@ export default function Home() {
             <Link href="/dynamic-forms">Render dynamic forms using config</Link>
           </li>
           <li>
-            <Link href="/progress-bar">Progress bar</Link>
-          </li>
-          <li>
-            <Link href="/start-rating-widget">Star rating widget</Link>
-          </li>
-          <li>
-            <Link href="/twitter-post-textarea">
-              Twitter post like textarea
-            </Link>
-          </li>
-          <li>
-            <Link href="/todo-application">Todo application</Link>
-          </li>
-          <li>
             <Link href="/cart-page">Design cart page</Link>
           </li>
           <li>
