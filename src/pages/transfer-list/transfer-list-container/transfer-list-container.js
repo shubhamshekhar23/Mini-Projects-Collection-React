@@ -38,7 +38,7 @@ export default function TransferListContainer(props) {
       }
       return item;
     });
-    setLeftList(temp);
+    setLeftList(temp2);
   }
 
   function handleRightCheckbox(e, id) {
@@ -50,7 +50,7 @@ export default function TransferListContainer(props) {
       }
       return item;
     });
-    setRightList(temp);
+    setRightList(temp2);
   }
 
   const options = {
