@@ -78,6 +78,9 @@ export default function Home() {
           <li>
             <Link href="/whack-mole-game">whack-mole-game</Link>
           </li>
+          <li>
+            <Link href="/transfer-list">transfer-list</Link>
+          </li>
 
           {/* coming soon */}
           <h3>Coming soon below ....</h3>

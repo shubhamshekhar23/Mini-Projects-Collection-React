@@ -1,0 +1,23 @@
+.transfer_list_container_container {
+  display: flex;
+  gap: 10px;
+  border: 1px solid;
+  width: fit-content;
+  padding: 15px;
+}
+.action {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form_field {
+  // display: flex;
+}
+
+.item_list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 100px;
+}

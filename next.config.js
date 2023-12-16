@@ -101,6 +101,10 @@ const nextConfig = {
         source: "/whack-mole-game",
         destination: "/whack-mole-game/whack-mole-game",
       },
+      {
+        source: "/transfer-list",
+        destination: "/transfer-list/transfer-list",
+      },
     ];
   },
 };
