@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import styles from "./transfer-list-container.module.scss";
 import btnActionService from "./services/btn-action.service";
 import btnDisableService from "./services/btn-disable.service";
+import checkboxHandlerService from "./services/checkbox-handler.service";
 
 const LEFT_ITEMS = ["HTML", "css", "javascript", "typescript"];
 const RIGHT_ITEMS = ["React", "Angular", "Vue", "Svelte"];
@@ -29,30 +30,6 @@ export default function TransferListContainer(props) {
     );
   }, []);
 
-  function handleLeftCheckbox(e, id) {
-    const checked = e.target.checked;
-    const temp = [...leftList];
-    let temp2 = temp.map((item) => {
-      if (item.id == id) {
-        item.checked = checked;
-      }
-      return item;
-    });
-    setLeftList(temp2);
-  }
-
-  function handleRightCheckbox(e, id) {
-    const checked = e.target.checked;
-    const temp = [...rightList];
-    let temp2 = temp.map((item) => {
-      if (item.id == id) {
-        item.checked = checked;
-      }
-      return item;
-    });
-    setRightList(temp2);
-  }
-
   const options = {
     leftList,
     rightList,
@@ -71,7 +48,9 @@ export default function TransferListContainer(props) {
                 type="checkbox"
                 name={item.label}
                 checked={item.checked}
-                onChange={(e) => handleLeftCheckbox(e, item.id)}
+                onChange={(e) =>
+                  checkboxHandlerService.handleLeftCheckbox(e, item.id, options)
+                }
               />
               <label htmlFor={item.label}>{item.label}</label>
             </div>
@@ -116,7 +95,13 @@ export default function TransferListContainer(props) {
                 type="checkbox"
                 name={item.label}
                 checked={item.checked}
-                onChange={(e) => handleRightCheckbox(e, item.id)}
+                onChange={(e) =>
+                  checkboxHandlerService.handleRightCheckbox(
+                    e,
+                    item.id,
+                    options
+                  )
+                }
               />
               <label htmlFor={item.label}>{item.label}</label>
             </div>

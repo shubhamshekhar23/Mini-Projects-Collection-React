@@ -26,4 +26,22 @@ module.exports = function (plop) {
       },
     ],
   });
+
+  plop.setGenerator("s", {
+    description: "Create a new Service js file",
+    prompts: [
+      {
+        type: "input",
+        name: "name",
+        message: "Service name in kebab-case:",
+      },
+    ],
+    actions: [
+      {
+        type: "add",
+        path: currentWorkingDirectory + "/{{kebabCase name}}.service.js",
+        templateFile: "plop-templates/service.service.js.hbs",
+      },
+    ],
+  });
 };
