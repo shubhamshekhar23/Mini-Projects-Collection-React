@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 
 import styles from "./transfer-list-container.module.scss";
+import btnActionService from "./services/btn-action.service";
+import btnDisableService from "./services/btn-disable.service";
 
 const LEFT_ITEMS = ["HTML", "css", "javascript", "typescript"];
 const RIGHT_ITEMS = ["React", "Angular", "Vue", "Svelte"];
@@ -51,28 +53,12 @@ export default function TransferListContainer(props) {
     setRightList(temp);
   }
 
-  function allLeft(params) {
-    setLeftList([...leftList, ...rightList]);
-    setRightList([]);
-  }
-
-  function allRight(params) {
-    setRightList([...rightList, ...leftList]);
-    setLeftList([]);
-  }
-
-  function checkedLeft(params) {
-    let checkedItemsInRIght = rightList.filter((item) => item.checked);
-    let nonCheckedItemsInRIght = rightList.filter((item) => !item.checked);
-    setLeftList([...leftList, ...checkedItemsInRIght]);
-    setRightList(nonCheckedItemsInRIght);
-  }
-  function checkedRight(params) {
-    let checkedItemsInLeft = leftList.filter((item) => item.checked);
-    let nonCheckedItemsInLeft = leftList.filter((item) => !item.checked);
-    setRightList([...rightList, ...checkedItemsInLeft]);
-    setLeftList(nonCheckedItemsInLeft);
-  }
+  const options = {
+    leftList,
+    rightList,
+    setLeftList,
+    setRightList,
+  };
 
   return (
     <main className={styles.transfer_list_container_container}>
@@ -95,10 +81,30 @@ export default function TransferListContainer(props) {
 
       {/* middle action */}
       <div className={styles.action}>
-        <button onClick={allLeft}>{"<<"}</button>
-        <button onClick={checkedLeft}>{"<"}</button>
-        <button onClick={checkedRight}>{">"}</button>
-        <button onClick={allRight}>{">>"}</button>
+        <button
+          disabled={btnDisableService.isAllLeftDisabled(options)}
+          onClick={() => btnActionService.allLeft(options)}
+        >
+          {"<<"}
+        </button>
+        <button
+          disabled={btnDisableService.isCheckedLeftDisabled(options)}
+          onClick={() => btnActionService.checkedLeft(options)}
+        >
+          {"<"}
+        </button>
+        <button
+          disabled={btnDisableService.isCheckedRightDisabled(options)}
+          onClick={() => btnActionService.checkedRight(options)}
+        >
+          {">"}
+        </button>
+        <button
+          disabled={btnDisableService.isAllRightDisabled(options)}
+          onClick={() => btnActionService.allRight(options)}
+        >
+          {">>"}
+        </button>
       </div>
 
       {/* right list */}
