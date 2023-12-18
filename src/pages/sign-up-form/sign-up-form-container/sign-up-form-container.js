@@ -61,7 +61,9 @@ export default function SignUpFormContainer(props) {
     e.preventDefault();
     let isAnyError = checkForErrors();
     if (isAnyError) return;
-    console.log("form success");
+    alert("Form Successful");
+    setFormState(initial_state);
+    setErrorState(error_initial_state);
   }
 
   function checkForErrors() {
@@ -76,7 +78,6 @@ export default function SignUpFormContainer(props) {
       }));
       isAnyError = isAnyError || !isValid;
     });
-    console.log(isAnyError);
     return isAnyError;
   }
 

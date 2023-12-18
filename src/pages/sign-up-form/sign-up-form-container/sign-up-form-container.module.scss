@@ -15,6 +15,7 @@
   span {
     display: block;
     color: red;
+    text-align: end;
     &::before {
       content: "🧟‍♂️";
     }
