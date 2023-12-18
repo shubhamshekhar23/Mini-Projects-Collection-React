@@ -109,6 +109,10 @@ const nextConfig = {
         source: "/job-board",
         destination: "/job-board/job-board",
       },
+      {
+        source: "/sign-up-form",
+        destination: "/sign-up-form/sign-up-form",
+      },
     ];
   },
 };

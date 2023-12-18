@@ -1,0 +1,22 @@
+.sign_up_form_container_container {
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 300px;
+    .form_field {
+      height: 30px;
+      div {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+  span {
+    display: block;
+    color: red;
+    &::before {
+      content: "🧟‍♂️";
+    }
+  }
+}
