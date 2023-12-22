@@ -1,0 +1,28 @@
+.like_button_container_container {
+  button {
+    display: flex;
+    width: 300px;
+    font-size: 40px;
+    padding: 10px;
+    justify-content: center;
+    gap: 10px;
+    border: 1px solid lightgray;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .like_btn {
+    background-color: red;
+    color: white;
+  }
+  .unlike_btn {
+    &:hover {
+      color: red;
+      border: 1px solid lightcoral;
+    }
+  }
+  svg {
+    height: 50px;
+    width: 50px;
+  }
+}

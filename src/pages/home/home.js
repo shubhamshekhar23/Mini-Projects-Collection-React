@@ -87,6 +87,9 @@ export default function Home() {
           <li>
             <Link href="/sign-up-form">sign-up-form</Link>
           </li>
+          <li>
+            <Link href="/like-button">like-button</Link>
+          </li>
 
           {/* coming soon */}
           <h3>Coming soon below ....</h3>

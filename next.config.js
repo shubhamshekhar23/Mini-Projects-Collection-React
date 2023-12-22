@@ -113,6 +113,10 @@ const nextConfig = {
         source: "/sign-up-form",
         destination: "/sign-up-form/sign-up-form",
       },
+      {
+        source: "/like-button",
+        destination: "/like-button/like-button",
+      },
     ];
   },
 };
