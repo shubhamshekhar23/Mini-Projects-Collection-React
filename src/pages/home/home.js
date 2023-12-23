@@ -90,6 +90,9 @@ export default function Home() {
           <li>
             <Link href="/like-button">like-button</Link>
           </li>
+          <li>
+            <Link href="/folder-file-tree">folder-file-tree</Link>
+          </li>
 
           {/* coming soon */}
           <h3>Coming soon below ....</h3>

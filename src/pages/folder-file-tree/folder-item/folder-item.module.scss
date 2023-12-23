@@ -1,0 +1,15 @@
+.folder_item_container {
+  label::before {
+    content: "🗂️";
+  }
+}
+
+.folder_content_container {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.active {
+  background-color: brown;
+}

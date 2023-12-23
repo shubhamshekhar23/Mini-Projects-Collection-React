@@ -1,0 +1,9 @@
+.file_item_container {
+  label::before {
+    content: "📝";
+  }
+}
+
+.active {
+  background-color: brown;
+}

@@ -117,6 +117,10 @@ const nextConfig = {
         source: "/like-button",
         destination: "/like-button/like-button",
       },
+      {
+        source: "/folder-file-tree",
+        destination: "/folder-file-tree/folder-file-tree",
+      },
     ];
   },
 };
