@@ -10,6 +10,10 @@ const nextConfig = {
         destination: "/home/home",
       },
       {
+        source: "/z-playground",
+        destination: "/z-playground/z-playground",
+      },
+      {
         source: "/memory-card-game",
         destination: "/memory-card-game/memory-card-game",
       },

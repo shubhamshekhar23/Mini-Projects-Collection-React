@@ -10,6 +10,9 @@ export default function Home() {
             <Link href="/">Home</Link>
           </li>
           <li>
+            <Link href="/z-playground">z-playground</Link>
+          </li>
+          <li>
             <Link href="/memory-card-game">memory-card-game</Link>
           </li>
           <li>
