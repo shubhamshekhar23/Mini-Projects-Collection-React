@@ -83,7 +83,7 @@ export default function UndoableCounterContainer(props) {
             <th>New</th>
           </tr>
           {opStack.map((item, index) => (
-            <tr>
+            <tr key={index}>
               <td>{item.op}</td>
               <td>{item.oldValue}</td>
               <td>{item.newValue}</td>

@@ -23,7 +23,7 @@
   bottom: 0;
   display: flex;
   justify-content: center;
-  align-items: end;
+  align-items: flex-end;
   .hour_hand_item {
     height: 30%;
     width: 100%;
@@ -39,7 +39,7 @@
   bottom: 0;
   display: flex;
   justify-content: center;
-  align-items: end;
+  align-items: flex-end;
   .minute_hand_item {
     height: 60%;
     width: 100%;
@@ -54,7 +54,7 @@
   bottom: 0;
   display: flex;
   justify-content: center;
-  align-items: end;
+  align-items: flex-end;
   .second_hand_item {
     height: 80%;
     width: 100%;
