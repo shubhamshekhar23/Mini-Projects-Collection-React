@@ -1,2 +1,7 @@
 .main {
+  display: grid;
+  place-content: start;
+  place-items: start;
+  gap: 5px;
+  padding: 15px;
 }

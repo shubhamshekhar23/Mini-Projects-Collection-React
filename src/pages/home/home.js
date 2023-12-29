@@ -1,132 +1,50 @@
 import styles from "./home.module.scss";
-import Link from "next/link";
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <nav>
-        <ul>
-          <li>
-            <Link href="/">Home</Link>
-          </li>
-          <li>
-            <Link href="/z-playground">z-playground</Link>
-          </li>
-          <li>
-            <Link href="/memory-card-game">memory-card-game</Link>
-          </li>
-          <li>
-            <Link href="/tic-tac-toe-game">tic-tac-toe-game</Link>
-          </li>
-          <li>
-            <Link href="/accordion">accordion</Link>
-          </li>
-          <li>
-            <Link href="/contact-form">contact-form</Link>
-          </li>
-          <li>
-            <Link href="/flight-booker">flight-booker</Link>
-          </li>
-          <li>
-            <Link href="/generate-table">generate-table</Link>
-          </li>
-          <li>
-            <Link href="/progress-bar">progress-bar</Link>
-          </li>
-          <li>
-            <Link href="/progress-bars">progress-bars</Link>
-          </li>
-          <li>
-            <Link href="/progress-bars-2">progress-bars-2</Link>
-          </li>
-          <li>
-            <Link href="/progress-bars-3">progress-bars-3</Link>
-          </li>
-          <li>
-            <Link href="/temperature-converter">temperature-converter</Link>
-          </li>
-          <li>
-            <Link href="/mortgage-calculator">mortgage-calculator</Link>
-          </li>
-          <li>
-            <Link href="/tweet">tweet</Link>
-          </li>
-          <li>
-            <Link href="/tabs">tabs</Link>
-          </li>
-          <li>
-            <Link href="/analog-clock">analog-clock</Link>
-          </li>
-          <li>
-            <Link href="/grid-lights">grid-lights</Link>
-          </li>
-          <li>
-            <Link href="/stop-watch">stop-watch</Link>
-          </li>
-          <li>
-            <Link href="/traffic-light">traffic-light</Link>
-          </li>
-          <li>
-            <Link href="/star-rating">star-rating</Link>
-          </li>
-          <li>
-            <Link href="/undoable-counter">undoable-counter</Link>
-          </li>
-          <li>
-            <Link href="/digital-clock">digital-clock</Link>
-          </li>
-          <li>
-            <Link href="/to-do-list">to-do-list</Link>
-          </li>
-          <li>
-            <Link href="/whack-mole-game">whack-mole-game</Link>
-          </li>
-          <li>
-            <Link href="/transfer-list">transfer-list</Link>
-          </li>
-          <li>
-            <Link href="/job-board">job-board</Link>
-          </li>
-          <li>
-            <Link href="/sign-up-form">sign-up-form</Link>
-          </li>
-          <li>
-            <Link href="/like-button">like-button</Link>
-          </li>
-          <li>
-            <Link href="/folder-file-tree">folder-file-tree</Link>
-          </li>
+      <a href="/">Home</a>
+      <a href="/z-playground">z-playground</a>
+      <a href="/memory-card-game">memory-card-game</a>
+      <a href="/tic-tac-toe-game">tic-tac-toe-game</a>
+      <a href="/accordion">accordion</a>
+      <a href="/contact-form">contact-form</a>
+      <a href="/flight-booker">flight-booker</a>
+      <a href="/generate-table">generate-table</a>
+      <a href="/progress-bar">progress-bar</a>
+      <a href="/progress-bars">progress-bars</a>
+      <a href="/progress-bars-2">progress-bars-2</a>
+      <a href="/progress-bars-3">progress-bars-3</a>
+      <a href="/temperature-converter">temperature-converter</a>
+      <a href="/mortgage-calculator">mortgage-calculator</a>
+      <a href="/tweet">tweet</a>
+      <a href="/tabs">tabs</a>
+      <a href="/analog-clock">analog-clock</a>
+      <a href="/grid-lights">grid-lights</a>
+      <a href="/stop-watch">stop-watch</a>
+      <a href="/traffic-light">traffic-light</a>
+      <a href="/star-rating">star-rating</a>
+      <a href="/undoable-counter">undoable-counter</a>
+      <a href="/digital-clock">digital-clock</a>
+      <a href="/to-do-list">to-do-list</a>
+      <a href="/whack-mole-game">whack-mole-game</a>
+      <a href="/transfer-list">transfer-list</a>
+      <a href="/job-board">job-board</a>
+      <a href="/sign-up-form">sign-up-form</a>
+      <a href="/like-button">like-button</a>
+      <a href="/folder-file-tree">folder-file-tree</a>
 
-          {/* coming soon */}
-          <h3>Coming soon below ....</h3>
-          <li>
-            <Link href="/typehead">Google like typehead</Link>
-          </li>
-          <li>
-            <Link href="/google-day-calendar">Google like day calendar</Link>
-          </li>
-          <li>
-            <Link href="/excel">Microsoft like excel spreadsheet</Link>
-          </li>
-          <li>
-            <Link href="/dynamic-forms">Render dynamic forms using config</Link>
-          </li>
-          <li>
-            <Link href="/cart-page">Design cart page</Link>
-          </li>
-          <li>
-            <Link href="/product-list-filters">
-              Product listing page with filters
-            </Link>
-          </li>
-
-          <li>
-            <Link href="/list-stopwatch-creation">
-              list of stopwatch creation and deletion
-            </Link>
-          </li>
-        </ul>
-      </nav>
+      {/* coming soon */}
+      <h3>Coming soon below ....</h3>
+      <a href="/typehead">Google like typehead</a>
+      <a href="/google-day-calendar">Google like day calendar</a>
+      <a href="/excel">Microsoft like excel spreadsheet</a>
+      <a href="/dynamic-forms">Render dynamic forms using config</a>
+      <a href="/cart-page">Design cart page</a>
+      <a href="/product-list-filters">Product listing page with filters</a>
+      <a href="/list-stopwatch-creation">
+        list of stopwatch creation and deletion
+      </a>
     </main>
   );
 }
