@@ -6,6 +6,10 @@ import router from "./router";
 function App() {
   return (
     <div className="App">
+      <header className="app-header">
+        <a href="/">Home</a>
+        <a href="/z-playground">z-playground</a>
+      </header>
       <RouterProvider router={router} />
     </div>
   );
