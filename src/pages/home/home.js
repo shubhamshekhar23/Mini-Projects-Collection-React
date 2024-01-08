@@ -66,6 +66,31 @@ export default function Home() {
       {/* coming soon */}
       <h3>Coming soon below ....</h3>
       <section className={styles.project_container}>
+        <a href="https://sadanandpai.github.io/frontend-mini-challenges/javascript/">
+          Sample External Frontend collection
+        </a>
+        <a>Skeleton loading</a>
+        <a>File-uploader</a>
+        <a>Dialog-popup</a>
+        <a>Spinning-loader</a>
+        <a>Telephone-formatter</a>
+        <a>Rock-paper-scissor</a>
+        <a>Password-Strength</a>
+        <a>Pixel-Art</a>
+        <a>JSon-creator</a>
+        <a>Comment-Box</a>
+        <a>Paginator</a>
+        <a>Calendar</a>
+        <a>Carousel</a>
+        <a>Pomodoro</a>
+        <a>Sorting visusalizer</a>
+        <a>OTP input</a>
+        <a>BAsic-calucator</a>
+        <a>Infinite-scroll</a>
+        <a>chips-input</a>
+        <a>nav-bar</a>
+        <a>slider with step</a>
+
         <a href="/typehead">Google like typehead</a>
         <a href="/google-day-calendar">Google like day calendar</a>
         <a href="/excel">Microsoft like excel spreadsheet</a>
