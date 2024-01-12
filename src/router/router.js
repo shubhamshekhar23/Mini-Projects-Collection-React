@@ -31,6 +31,7 @@ import ProgressBars from "../pages/progress-bar-related/progress-bars/progress-b
 import ProgressBars2 from "../pages/progress-bar-related/progress-bars-2/progress-bars-2";
 import ProgressBars3 from "../pages/progress-bar-related/progress-bars-3/progress-bars-3";
 import ProgressBar from "../pages/progress-bar-related/progress-bar/progress-bar";
+import SpinningLoader from "../pages/spinning-loader/spinning-loader";
 
 const router = createBrowserRouter([
   { path: "/", element: <Home /> },
@@ -91,6 +92,7 @@ const router = createBrowserRouter([
   },
   { path: "/tabs", element: <Tabs /> },
   { path: "/skeleton-loader", element: <SkeletonLoader /> },
+  { path: "/spinning-loader", element: <SpinningLoader /> },
 
   /* Forms */
   { path: "/contact-form", element: <ContactForm /> },

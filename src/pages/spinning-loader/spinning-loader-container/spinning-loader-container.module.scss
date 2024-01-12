@@ -1,0 +1,19 @@
+.spinning_loader_container_container {
+}
+.spinning_loader {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 20px solid lightskyblue;
+  border-top-color: blue;
+  animation: rotatate 1s linear 0s infinite;
+}
+
+@keyframes rotatate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

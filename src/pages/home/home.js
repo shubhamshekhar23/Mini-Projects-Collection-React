@@ -65,9 +65,7 @@ export default function Home() {
         <Link to="/progress-bar-related">progress-bar-related</Link>
         <Link to="/tabs">tabs</Link>
         <Link to="/skeleton-loader">Skeleton loader</Link>
-        <Link to="/spinning-loader" className={styles.yet_implement}>
-          Spinning loader
-        </Link>
+        <Link to="/spinning-loader">Spinning loader</Link>
         <Link className={styles.yet_implement}>Dialog-popup</Link>
         <Link className={styles.yet_implement}>Spinning-loader</Link>
         <Link className={styles.yet_implement}>slider with step</Link>
