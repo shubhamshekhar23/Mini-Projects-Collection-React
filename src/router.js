@@ -29,6 +29,7 @@ import Tweet from "./pages/tweet/tweet";
 import UndoableCounter from "./pages/undoable-counter/undoable-counter";
 import WhackMoleGame from "./pages/whack-mole-game/whack-mole-game";
 import ZPlayground from "./pages/z-playground/z-playground";
+import SkeletonLoader from "./pages/skeleton-loader/skeleton-loader";
 
 const router = createBrowserRouter([
   { path: "/", element: <Home /> },
@@ -61,6 +62,7 @@ const router = createBrowserRouter([
   { path: "/undoable-counter", element: <UndoableCounter /> },
   { path: "/whack-mole-game", element: <WhackMoleGame /> },
   { path: "/z-playground", element: <ZPlayground /> },
+  { path: "/skeleton-loader", element: <SkeletonLoader /> },
 ]);
 
 export default router;

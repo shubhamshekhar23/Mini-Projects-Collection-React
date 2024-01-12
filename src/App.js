@@ -10,7 +10,9 @@ function App() {
         <a href="/">Home</a>
         <a href="/z-playground">z-playground</a>
       </header>
-      <RouterProvider router={router} />
+      <main className="router_content">
+        <RouterProvider router={router} />
+      </main>
     </div>
   );
 }

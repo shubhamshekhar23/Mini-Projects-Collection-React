@@ -47,6 +47,7 @@ export default function Home() {
         <a href="/progress-bars-2">progress-bars-2</a>
         <a href="/progress-bars-3">progress-bars-3</a>
         <a href="/tabs">tabs</a>
+        <a href="/skeleton-loader">Skeleton loader</a>
       </section>
 
       <h4>Forms</h4>
@@ -69,7 +70,6 @@ export default function Home() {
         <a href="https://sadanandpai.github.io/frontend-mini-challenges/javascript/">
           Sample External Frontend collection
         </a>
-        <a>Skeleton loading</a>
         <a>File-uploader</a>
         <a>Dialog-popup</a>
         <a>Spinning-loader</a>

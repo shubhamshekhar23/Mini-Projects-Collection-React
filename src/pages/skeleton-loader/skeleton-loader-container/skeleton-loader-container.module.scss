@@ -1,0 +1,52 @@
+.skeleton_loader_container_container {
+}
+.skeleton_wrapper {
+  width: 500px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid lightgrey;
+  padding: 10px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.main_skeleton {
+  height: 50%;
+  width: 100%;
+  background-color: lightgrey;
+}
+
+.footer_one,
+.footer_two,
+.footer_three {
+  height: 20%;
+  width: 100%;
+  background-color: lightgrey;
+}
+
+.footer_three {
+  width: 70%;
+}
+
+.moving_shadow {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  box-sizing: border-box;
+  height: 100%;
+  width: 50%;
+  background: linear-gradient(to right, transparent, white, transparent);
+  animation: move-linear 0.7s linear 0s infinite;
+}
+
+@keyframes move-linear {
+  0% {
+    left: -30%;
+  }
+  100% {
+    left: 100%;
+  }
+}
