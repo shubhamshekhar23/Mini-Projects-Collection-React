@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import styles from "./home.module.scss";
 
 export default function Home() {
@@ -60,6 +62,7 @@ export default function Home() {
       <h4>Basic UI elements</h4>
       <section className={styles.project_container}>
         <a href="/accordion">accordion</a>
+        <a href="/progress-bar-related">progress-bar-related</a>
         <a href="/progress-bar">progress-bar</a>
         <a href="/progress-bars">progress-bars</a>
         <a href="/progress-bars-2">progress-bars-2</a>

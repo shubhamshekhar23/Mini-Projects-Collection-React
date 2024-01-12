@@ -12,10 +12,10 @@ import JobBoard from "./pages/job-board/job-board";
 import LikeButton from "./pages/like-button/like-button";
 import MemoryCardGame from "./pages/memory-card-game/memory-card-game";
 import MortgageCalculator from "./pages/mortgage-calculator/mortgage-calculator";
-import ProgressBar from "./pages/progress-bar/progress-bar";
-import ProgressBars from "./pages/progress-bars/progress-bars";
-import ProgressBars2 from "./pages/progress-bars-2/progress-bars-2";
-import ProgressBars3 from "./pages/progress-bars-3/progress-bars-3";
+// import ProgressBar from "./pages/progress-bar/progress-bar";
+// import ProgressBars from "./pages/progress-bars/progress-bars";
+// import ProgressBars2 from "./pages/progress-bars-2/progress-bars-2";
+// import ProgressBars3 from "./pages/progress-bars-3/progress-bars-3";
 import SignUpForm from "./pages/sign-up-form/sign-up-form";
 import StarRating from "./pages/star-rating/star-rating";
 import StopWatch from "./pages/stop-watch/stop-watch";
@@ -30,6 +30,11 @@ import UndoableCounter from "./pages/undoable-counter/undoable-counter";
 import WhackMoleGame from "./pages/whack-mole-game/whack-mole-game";
 import ZPlayground from "./pages/z-playground/z-playground";
 import SkeletonLoader from "./pages/skeleton-loader/skeleton-loader";
+import ProgressBarRelated from "./pages/progress-bar-related/progress-bar-related";
+import ProgressBars from "./pages/progress-bar-related/progress-bars/progress-bars";
+import ProgressBars2 from "./pages/progress-bar-related/progress-bars-2/progress-bars-2";
+import ProgressBars3 from "./pages/progress-bar-related/progress-bars-3/progress-bars-3";
+import ProgressBar from "./pages/progress-bar-related/progress-bar/progress-bar";
 
 const router = createBrowserRouter([
   { path: "/", element: <Home /> },
@@ -63,6 +68,31 @@ const router = createBrowserRouter([
   { path: "/whack-mole-game", element: <WhackMoleGame /> },
   { path: "/z-playground", element: <ZPlayground /> },
   { path: "/skeleton-loader", element: <SkeletonLoader /> },
+  {
+    path: "/progress-bar-related",
+    children: [
+      {
+        index: true,
+        element: <ProgressBarRelated />,
+      },
+      {
+        path: "progress-bar",
+        element: <ProgressBar />,
+      },
+      {
+        path: "progress-bars",
+        element: <ProgressBars />,
+      },
+      {
+        path: "progress-bars-2",
+        element: <ProgressBars2 />,
+      },
+      {
+        path: "progress-bars-3",
+        element: <ProgressBars3 />,
+      },
+    ],
+  },
 ]);
 
 export default router;
