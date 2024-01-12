@@ -63,10 +63,6 @@ export default function Home() {
       <section className={styles.project_container}>
         <a href="/accordion">accordion</a>
         <a href="/progress-bar-related">progress-bar-related</a>
-        <a href="/progress-bar">progress-bar</a>
-        <a href="/progress-bars">progress-bars</a>
-        <a href="/progress-bars-2">progress-bars-2</a>
-        <a href="/progress-bars-3">progress-bars-3</a>
         <a href="/tabs">tabs</a>
         <a href="/skeleton-loader">Skeleton loader</a>
         <a href="/spinning-loader">Spinning loader</a>
