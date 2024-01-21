@@ -5,6 +5,20 @@ import styles from "./home.module.scss";
 export default function Home() {
   return (
     <main className={styles.main}>
+      <h4>Shared UI Elements</h4>
+      <section className={styles.project_container}>
+        <Link to="/accordion">accordion</Link>
+        <Link to="/progress-bar-related">progress-bar-related</Link>
+        <Link to="/tabs">tabs</Link>
+        <Link to="/skeleton-loader">Skeleton loader</Link>
+        <Link to="/spinning-loader">Spinning loader</Link>
+        <Link to="/select-dropdown">Select dropdown</Link>
+        <Link to="/autocomplete-chips">Autocomplete Chips</Link>
+        <Link className={styles.yet_implement}>Dialog-popup</Link>
+        <Link className={styles.yet_implement}>Spinning-loader</Link>
+        <Link className={styles.yet_implement}>slider with step</Link>
+      </section>
+
       <h4>Api Usage apps</h4>
       <section className={styles.project_container}>
         <Link to="/job-board">job-board</Link>
@@ -57,19 +71,6 @@ export default function Home() {
         <Link to="/stop-watch">stop-watch</Link>
         <Link to="/analog-clock">analog-clock</Link>
         <Link className={styles.yet_implement}>Pomodoro</Link>
-      </section>
-
-      <h4>Shared UI Elements</h4>
-      <section className={styles.project_container}>
-        <Link to="/accordion">accordion</Link>
-        <Link to="/progress-bar-related">progress-bar-related</Link>
-        <Link to="/tabs">tabs</Link>
-        <Link to="/skeleton-loader">Skeleton loader</Link>
-        <Link to="/spinning-loader">Spinning loader</Link>
-        <Link to="/select-dropdown">Select dropdown</Link>
-        <Link className={styles.yet_implement}>Dialog-popup</Link>
-        <Link className={styles.yet_implement}>Spinning-loader</Link>
-        <Link className={styles.yet_implement}>slider with step</Link>
       </section>
 
       <h4>Form Apps</h4>

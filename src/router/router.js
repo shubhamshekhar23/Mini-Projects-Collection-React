@@ -33,10 +33,44 @@ import SelectDropdown from "../features/shared-elements/select-dropdown/select-d
 import MemoryCardGame from "../features/games/memory-card-game/memory-card-game";
 import TicTacToeGame from "../features/games/tic-tac-toe-game/tic-tac-toe-game";
 import WhackMoleGame from "../features/games/whack-mole-game/whack-mole-game";
+import AutocompleteChips from "../features/shared-elements/autocomplete-chips/autocomplete-chips";
 
 const router = createBrowserRouter([
   { path: "/", element: <Home /> },
   { path: "/z-playground", element: <ZPlayground /> },
+
+  /* Basic UI elements */
+  { path: "/accordion", element: <Accordion /> },
+  { path: "/tabs", element: <Tabs /> },
+  { path: "/select-dropdown", element: <SelectDropdown /> },
+  { path: "/autocomplete-chips", element: <AutocompleteChips /> },
+  { path: "/skeleton-loader", element: <SkeletonLoader /> },
+  { path: "/spinning-loader", element: <SpinningLoader /> },
+  {
+    path: "/progress-bar-related",
+    children: [
+      {
+        index: true,
+        element: <ProgressBarRelated />,
+      },
+      {
+        path: "progress-bar",
+        element: <ProgressBar />,
+      },
+      {
+        path: "progress-bars",
+        element: <ProgressBars />,
+      },
+      {
+        path: "progress-bars-2",
+        element: <ProgressBars2 />,
+      },
+      {
+        path: "progress-bars-3",
+        element: <ProgressBars3 />,
+      },
+    ],
+  },
 
   /* API Usage */
   { path: "/job-board", element: <JobBoard /> },
@@ -63,38 +97,6 @@ const router = createBrowserRouter([
   { path: "/digital-clock", element: <DigitalClock /> },
   { path: "/stop-watch", element: <StopWatch /> },
   { path: "/analog-clock", element: <AnalogClock /> },
-
-  /* Basic UI elements */
-  { path: "/accordion", element: <Accordion /> },
-  {
-    path: "/progress-bar-related",
-    children: [
-      {
-        index: true,
-        element: <ProgressBarRelated />,
-      },
-      {
-        path: "progress-bar",
-        element: <ProgressBar />,
-      },
-      {
-        path: "progress-bars",
-        element: <ProgressBars />,
-      },
-      {
-        path: "progress-bars-2",
-        element: <ProgressBars2 />,
-      },
-      {
-        path: "progress-bars-3",
-        element: <ProgressBars3 />,
-      },
-    ],
-  },
-  { path: "/tabs", element: <Tabs /> },
-  { path: "/select-dropdown", element: <SelectDropdown /> },
-  { path: "/skeleton-loader", element: <SkeletonLoader /> },
-  { path: "/spinning-loader", element: <SpinningLoader /> },
 
   /* Forms */
   { path: "/contact-form", element: <ContactForm /> },

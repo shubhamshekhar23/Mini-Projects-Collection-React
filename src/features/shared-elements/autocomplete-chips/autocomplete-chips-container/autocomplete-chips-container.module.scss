@@ -1,0 +1,48 @@
+.autocomplete_chips_container_container {
+  width: 400px;
+}
+.chips_input_box {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 10px;
+  gap: 5px;
+  .chip_container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  input {
+    border: none;
+    padding: 10px 0;
+    width: 100%;
+  }
+  .chip_element {
+    padding: 5px 20px;
+    background-color: lightgray;
+    border-radius: 10px;
+  }
+}
+
+.dropdown_container {
+  border: 1px solid lightgray;
+  background-color: lightyellow;
+  max-height: 400px;
+  overflow: scroll;
+  .dropdown_item {
+    padding: 10px 0;
+    cursor: pointer;
+  }
+}
+
+.cross_item {
+  position: relative;
+  left: 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.selected_item {
+  background-color: gray;
+}
