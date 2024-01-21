@@ -14,7 +14,7 @@ export default function Home() {
         </Link>
       </section>
 
-      <h4>Css usage</h4>
+      <h4>Css usage apps</h4>
       <section className={styles.project_container}>
         <Link to="/tweet">tweet</Link>
         <Link to="/grid-lights">grid-lights</Link>
@@ -59,7 +59,7 @@ export default function Home() {
         <Link className={styles.yet_implement}>Pomodoro</Link>
       </section>
 
-      <h4>Basic UI elements</h4>
+      <h4>Shared UI Elements</h4>
       <section className={styles.project_container}>
         <Link to="/accordion">accordion</Link>
         <Link to="/progress-bar-related">progress-bar-related</Link>
@@ -72,7 +72,7 @@ export default function Home() {
         <Link className={styles.yet_implement}>slider with step</Link>
       </section>
 
-      <h4>Forms</h4>
+      <h4>Form Apps</h4>
       <section className={styles.project_container}>
         <Link to="/sign-up-form">sign-up-form</Link>
         <Link to="/contact-form">contact-form</Link>
