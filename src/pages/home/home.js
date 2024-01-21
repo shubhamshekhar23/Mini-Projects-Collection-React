@@ -15,7 +15,6 @@ export default function Home() {
         <Link to="/select-dropdown">Select dropdown</Link>
         <Link to="/autocomplete-chips">Autocomplete Chips</Link>
         <Link className={styles.yet_implement}>Dialog-popup</Link>
-        <Link className={styles.yet_implement}>Spinning-loader</Link>
         <Link className={styles.yet_implement}>slider with step</Link>
       </section>
 
