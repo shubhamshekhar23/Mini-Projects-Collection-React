@@ -1,0 +1,43 @@
+.select_dropdown_container_container {
+  $width: 300px;
+  position: relative;
+  width: $width;
+  .main_box {
+    width: 100%;
+    padding: 10px 50px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+    box-sizing: border-box;
+    position: relative;
+    &::after {
+      content: "▾";
+      font-size: 36px;
+      position: absolute;
+      right: 15px;
+      bottom: 0px;
+    }
+    &.open_box {
+      &::after {
+        transform: rotate(180deg);
+        bottom: -6px;
+      }
+    }
+  }
+
+  .dropdown {
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: lightyellow;
+    li {
+      padding: 10px;
+      list-style-type: none;
+      cursor: pointer;
+      &:hover {
+        background-color: lightpink;
+      }
+    }
+  }
+}
