@@ -15,7 +15,6 @@ export default function OtpInputContainer({ numDigits = 4 }) {
 
   const handleBackSpace = (event) => {
     const activeIndex = getActiveIndex();
-    console.warn(activeIndex);
 
     if (!valueList[activeIndex]) {
       event.preventDefault();
@@ -55,10 +54,6 @@ export default function OtpInputContainer({ numDigits = 4 }) {
     return () => {
       window.removeEventListener("keydown", handleKeyDown);
     };
-  }, [valueList]);
-
-  useEffect(() => {
-    console.log(valueList);
   }, [valueList]);
 
   useEffect(() => {
