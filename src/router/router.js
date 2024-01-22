@@ -38,6 +38,7 @@ import OtpInput from "../features/form-apps/otp-input/otp-input";
 import SnakeGame from "../features/games/snake-game/snake-game";
 import Drawer from "../features/shared-elements/drawer/drawer";
 import RockPaperScissors from "../features/games/rock-paper-scissors/rock-paper-scissors";
+import FileUploader from "../features/form-apps/file-uploader/file-uploader";
 
 const router = createBrowserRouter([
   { path: "/", element: <Home /> },
@@ -108,6 +109,7 @@ const router = createBrowserRouter([
   { path: "/sign-up-form", element: <SignUpForm /> },
   { path: "/flight-booker", element: <FlightBooker /> },
   { path: "/otp-input", element: <OtpInput /> },
+  { path: "/file-uploader", element: <FileUploader /> },
 
   /* Games */
   { path: "/memory-card-game", element: <MemoryCardGame /> },
