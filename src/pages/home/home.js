@@ -77,8 +77,7 @@ export default function Home() {
         <Link to="/sign-up-form">sign-up-form</Link>
         <Link to="/contact-form">contact-form</Link>
         <Link to="/flight-booker">flight-booker</Link>
-        <Link className={styles.yet_implement}>chips-input</Link>
-        <Link className={styles.yet_implement}>OTP input</Link>
+        <Link to="/otp-input">OTP input</Link>
         <Link to="/file-uploader" className={styles.yet_implement}>
           File uploader
         </Link>
