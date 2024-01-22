@@ -36,6 +36,7 @@ import WhackMoleGame from "../features/games/whack-mole-game/whack-mole-game";
 import AutocompleteChips from "../features/shared-elements/autocomplete-chips/autocomplete-chips";
 import OtpInput from "../features/form-apps/otp-input/otp-input";
 import SnakeGame from "../features/games/snake-game/snake-game";
+import Drawer from "../features/shared-elements/drawer/drawer";
 
 const router = createBrowserRouter([
   { path: "/", element: <Home /> },
@@ -48,6 +49,7 @@ const router = createBrowserRouter([
   { path: "/autocomplete-chips", element: <AutocompleteChips /> },
   { path: "/skeleton-loader", element: <SkeletonLoader /> },
   { path: "/spinning-loader", element: <SpinningLoader /> },
+  { path: "/drawer", element: <Drawer /> },
   {
     path: "/progress-bar-related",
     children: [

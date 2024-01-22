@@ -12,15 +12,15 @@ code {
     monospace;
 }
 
-/* button{
+button{
   padding: 10px;
-  background-color: chocolate;
+  background-color: lightskyblue;
   border: none;
-  color: white;
+  color: black;
   cursor: pointer;
   border-radius: 5px;
   margin: 0 5px;
-} */
+}
 
 input{
   outline: none;

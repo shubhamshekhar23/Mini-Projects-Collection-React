@@ -14,6 +14,7 @@ export default function Home() {
         <Link to="/spinning-loader">Spinning loader</Link>
         <Link to="/select-dropdown">Select dropdown</Link>
         <Link to="/autocomplete-chips">Autocomplete Chips</Link>
+        <Link to="/drawer">Drawer</Link>
         <Link className={styles.yet_implement}>Dialog-popup</Link>
         <Link className={styles.yet_implement}>slider with step</Link>
       </section>
