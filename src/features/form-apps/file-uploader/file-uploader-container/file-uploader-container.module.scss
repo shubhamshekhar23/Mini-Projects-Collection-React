@@ -55,4 +55,9 @@
   height: 90%;
   width: 100%;
   background-color: lightgray;
+  border: 1px dashed black;
+  width: 100px;
+  height: 100px;
+  display: grid;
+  place-content: center;
 }

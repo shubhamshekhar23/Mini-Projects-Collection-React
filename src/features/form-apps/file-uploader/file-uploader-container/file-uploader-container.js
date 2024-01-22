@@ -27,7 +27,11 @@ export default function FileUploaderContainer(props) {
   return (
     <main className={styles.file_uploader_container_container}>
       <section className={styles.file_uploader}>
-        {!preview && <div className={styles.non_preview}></div>}
+        {!preview && (
+          <div className={styles.non_preview}>
+            <span>No File Chosen</span>
+          </div>
+        )}
         {preview && (
           <div className={styles.preview_file}>
             {file.type.startsWith("image/") && (
