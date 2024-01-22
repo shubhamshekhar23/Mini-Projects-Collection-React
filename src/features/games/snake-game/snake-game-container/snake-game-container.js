@@ -7,6 +7,7 @@ export default function SnakeGameContainer(props) {
   const [gameBoard, setGameBoard] = useState([]);
   const [food, setFood] = useState([]);
   const [moveDirection, setMoveDirection] = useState("right");
+  const [score, setScore] = useState(0);
 
   const [ROWS, COLS] = [50, 50];
 
@@ -92,6 +93,7 @@ export default function SnakeGameContainer(props) {
 
     if (pos[0] === food[0] && pos[1] === food[1]) {
       newSnake.unshift(item);
+      setScore(score + 1);
       showRandomFood();
     }
     newSnake.push(pos);
@@ -145,8 +147,11 @@ export default function SnakeGameContainer(props) {
   };
 
   return (
-    <main className={styles.snake_game_container_container}>
-      {colElements()}
+    <main>
+      <h4>Score : {score}</h4>
+      <section className={styles.snake_game_container_container}>
+        {colElements()}
+      </section>
     </main>
   );
 }
