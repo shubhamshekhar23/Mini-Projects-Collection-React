@@ -1,0 +1,34 @@
+.rock_paper_scissors_container_container {
+  display: grid;
+  place-content: center;
+  gap: 20px;
+  place-items: center;
+  button {
+    width: 100%;
+  }
+  .main_box {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+}
+.user_section {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  span {
+    font-size: 70px;
+    cursor: pointer;
+  }
+}
+
+.computer_Section {
+  width: 100px;
+  span {
+    font-size: 70px;
+  }
+}
+
+.result_section {
+  width: 200px;
+}

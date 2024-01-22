@@ -37,6 +37,7 @@ import AutocompleteChips from "../features/shared-elements/autocomplete-chips/au
 import OtpInput from "../features/form-apps/otp-input/otp-input";
 import SnakeGame from "../features/games/snake-game/snake-game";
 import Drawer from "../features/shared-elements/drawer/drawer";
+import RockPaperScissors from "../features/games/rock-paper-scissors/rock-paper-scissors";
 
 const router = createBrowserRouter([
   { path: "/", element: <Home /> },
@@ -113,6 +114,7 @@ const router = createBrowserRouter([
   { path: "/tic-tac-toe-game", element: <TicTacToeGame /> },
   { path: "/whack-mole-game", element: <WhackMoleGame /> },
   { path: "/snake-game", element: <SnakeGame /> },
+  { path: "/rock-paper-scissors", element: <RockPaperScissors /> },
 ]);
 
 export default router;
