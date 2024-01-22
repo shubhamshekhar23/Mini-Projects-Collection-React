@@ -1,0 +1,19 @@
+.snake_game_container_container {
+}
+.row_item {
+  display: flex;
+}
+
+.box_item {
+  height: 10px;
+  width: 10px;
+  background-color: lightpink;
+}
+
+.snake_body {
+  background-color: green;
+}
+
+.food_body {
+  background-color: red;
+}

@@ -91,8 +91,8 @@ export default function Home() {
         <Link to="/whack-mole-game">whack-mole-game</Link>
         <Link to="/memory-card-game">memory-card-game</Link>
         <Link to="/tic-tac-toe-game">tic-tac-toe-game</Link>
+        <Link to="/snake-game">Snake Game</Link>
         <Link className={styles.yet_implement}>Rock-paper-scissor</Link>
-        <Link className={styles.yet_implement}>Snake Game</Link>
       </section>
 
       {/* coming soon */}

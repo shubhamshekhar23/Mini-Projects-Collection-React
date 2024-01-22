@@ -35,6 +35,7 @@ import TicTacToeGame from "../features/games/tic-tac-toe-game/tic-tac-toe-game";
 import WhackMoleGame from "../features/games/whack-mole-game/whack-mole-game";
 import AutocompleteChips from "../features/shared-elements/autocomplete-chips/autocomplete-chips";
 import OtpInput from "../features/form-apps/otp-input/otp-input";
+import SnakeGame from "../features/games/snake-game/snake-game";
 
 const router = createBrowserRouter([
   { path: "/", element: <Home /> },
@@ -109,6 +110,7 @@ const router = createBrowserRouter([
   { path: "/memory-card-game", element: <MemoryCardGame /> },
   { path: "/tic-tac-toe-game", element: <TicTacToeGame /> },
   { path: "/whack-mole-game", element: <WhackMoleGame /> },
+  { path: "/snake-game", element: <SnakeGame /> },
 ]);
 
 export default router;
