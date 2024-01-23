@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/shubhamshekhar23/Mini-Projects-Collection-React/static/css/main.93d0bc73.css",
-    "main.js": "/shubhamshekhar23/Mini-Projects-Collection-React/static/js/main.33068d93.js",
-    "static/js/787.43de61ce.chunk.js": "/shubhamshekhar23/Mini-Projects-Collection-React/static/js/787.43de61ce.chunk.js",
-    "index.html": "/shubhamshekhar23/Mini-Projects-Collection-React/index.html",
-    "main.93d0bc73.css.map": "/shubhamshekhar23/Mini-Projects-Collection-React/static/css/main.93d0bc73.css.map",
-    "main.33068d93.js.map": "/shubhamshekhar23/Mini-Projects-Collection-React/static/js/main.33068d93.js.map",
-    "787.43de61ce.chunk.js.map": "/shubhamshekhar23/Mini-Projects-Collection-React/static/js/787.43de61ce.chunk.js.map"
+    "main.css": "/Mini-Projects-Collection-React/static/css/main.93d0bc73.css",
+    "main.js": "/Mini-Projects-Collection-React/static/js/main.8cd55c38.js",
+    "static/js/787.43de61ce.chunk.js": "/Mini-Projects-Collection-React/static/js/787.43de61ce.chunk.js",
+    "index.html": "/Mini-Projects-Collection-React/index.html",
+    "main.93d0bc73.css.map": "/Mini-Projects-Collection-React/static/css/main.93d0bc73.css.map",
+    "main.8cd55c38.js.map": "/Mini-Projects-Collection-React/static/js/main.8cd55c38.js.map",
+    "787.43de61ce.chunk.js.map": "/Mini-Projects-Collection-React/static/js/787.43de61ce.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.93d0bc73.css",
-    "static/js/main.33068d93.js"
+    "static/js/main.8cd55c38.js"
   ]
 }
