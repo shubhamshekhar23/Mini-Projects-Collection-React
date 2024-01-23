@@ -1,4 +1,8 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Navigate,
+} from "react-router-dom";
 import Home from "../pages/home/home";
 import Accordion from "../features/shared-elements/accordion/accordion";
 import AnalogClock from "../features/time-apps/analog-clock/analog-clock";
@@ -41,8 +45,15 @@ import RockPaperScissors from "../features/games/rock-paper-scissors/rock-paper-
 import FileUploader from "../features/form-apps/file-uploader/file-uploader";
 
 const router = createBrowserRouter([
-  { path: "/", element: <Home /> },
-  { path: "/z-playground", element: <ZPlayground /> },
+  {
+    path: "/",
+    element: <Navigate to="/Mini-Projects-Collection-React" replace />,
+  },
+  { path: "/Mini-Projects-Collection-React", element: <Home /> },
+  {
+    path: "/Mini-Projects-Collection-React/z-playground",
+    element: <ZPlayground />,
+  },
 
   /* Basic UI elements */
   { path: "/accordion", element: <Accordion /> },

@@ -7,8 +7,8 @@ function App() {
   return (
     <div className="App">
       <header className="app-header">
-        <a href="/">Home</a>
-        <a href="/z-playground">z-playground</a>
+        <a href="/Mini-Projects-Collection-React/">Home</a>
+        <a href="/Mini-Projects-Collection-React/z-playground">z-playground</a>
       </header>
       <main className="router_content">
         <RouterProvider router={router} />
