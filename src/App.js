@@ -8,7 +8,12 @@ function App() {
     <div className="App">
       <header className="app-header">
         <a href="/Mini-Projects-Collection-React/">Home</a>
-        <a href="/Mini-Projects-Collection-React/z-playground">z-playground</a>
+        <a
+          href="/Mini-Projects-Collection-React/z-playground"
+          style={{ display: "none" }}
+        >
+          z-playground
+        </a>
       </header>
       <main className="router_content">
         <RouterProvider router={router} />
