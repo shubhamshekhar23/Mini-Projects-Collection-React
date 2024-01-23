@@ -56,15 +56,27 @@ const router = createBrowserRouter([
   },
 
   /* Basic UI elements */
-  { path: "/accordion", element: <Accordion /> },
-  { path: "/tabs", element: <Tabs /> },
-  { path: "/select-dropdown", element: <SelectDropdown /> },
-  { path: "/autocomplete-chips", element: <AutocompleteChips /> },
-  { path: "/skeleton-loader", element: <SkeletonLoader /> },
-  { path: "/spinning-loader", element: <SpinningLoader /> },
-  { path: "/drawer", element: <Drawer /> },
+  { path: "/Mini-Projects-Collection-React/accordion", element: <Accordion /> },
+  { path: "/Mini-Projects-Collection-React/tabs", element: <Tabs /> },
   {
-    path: "/progress-bar-related",
+    path: "/Mini-Projects-Collection-React/select-dropdown",
+    element: <SelectDropdown />,
+  },
+  {
+    path: "/Mini-Projects-Collection-React/autocomplete-chips",
+    element: <AutocompleteChips />,
+  },
+  {
+    path: "/Mini-Projects-Collection-React/skeleton-loader",
+    element: <SkeletonLoader />,
+  },
+  {
+    path: "/Mini-Projects-Collection-React/spinning-loader",
+    element: <SpinningLoader />,
+  },
+  { path: "/Mini-Projects-Collection-React/drawer", element: <Drawer /> },
+  {
+    path: "/Mini-Projects-Collection-React/progress-bar-related",
     children: [
       {
         index: true,
@@ -90,44 +102,110 @@ const router = createBrowserRouter([
   },
 
   /* API Usage */
-  { path: "/job-board", element: <JobBoard /> },
-  { path: "/like-button", element: <LikeButton /> },
+  { path: "/Mini-Projects-Collection-React/job-board", element: <JobBoard /> },
+  {
+    path: "/Mini-Projects-Collection-React/like-button",
+    element: <LikeButton />,
+  },
 
   /* CSS Usage */
-  { path: "/tweet", element: <Tweet /> },
-  { path: "/grid-lights", element: <GridLights /> },
-  { path: "/traffic-light", element: <TrafficLight /> },
-  { path: "/star-rating", element: <StarRating /> },
+  { path: "/Mini-Projects-Collection-React/tweet", element: <Tweet /> },
+  {
+    path: "/Mini-Projects-Collection-React/grid-lights",
+    element: <GridLights />,
+  },
+  {
+    path: "/Mini-Projects-Collection-React/traffic-light",
+    element: <TrafficLight />,
+  },
+  {
+    path: "/Mini-Projects-Collection-React/star-rating",
+    element: <StarRating />,
+  },
 
   /* Intermediate Apps */
-  { path: "/to-do-list", element: <ToDoList /> },
-  { path: "/temperature-converter", element: <TemperatureConverter /> },
-  { path: "/mortgage-calculator", element: <MortgageCalculator /> },
+  { path: "/Mini-Projects-Collection-React/to-do-list", element: <ToDoList /> },
+  {
+    path: "/Mini-Projects-Collection-React/temperature-converter",
+    element: <TemperatureConverter />,
+  },
+  {
+    path: "/Mini-Projects-Collection-React/mortgage-calculator",
+    element: <MortgageCalculator />,
+  },
 
   /* Advanced Logic Apps */
-  { path: "/folder-file-tree", element: <FolderFileTree /> },
-  { path: "/transfer-list", element: <TransferList /> },
-  { path: "/undoable-counter", element: <UndoableCounter /> },
-  { path: "/generate-table", element: <GenerateTable /> },
+  {
+    path: "/Mini-Projects-Collection-React/folder-file-tree",
+    element: <FolderFileTree />,
+  },
+  {
+    path: "/Mini-Projects-Collection-React/transfer-list",
+    element: <TransferList />,
+  },
+  {
+    path: "/Mini-Projects-Collection-React/undoable-counter",
+    element: <UndoableCounter />,
+  },
+  {
+    path: "/Mini-Projects-Collection-React/generate-table",
+    element: <GenerateTable />,
+  },
 
   /* Time Apps */
-  { path: "/digital-clock", element: <DigitalClock /> },
-  { path: "/stop-watch", element: <StopWatch /> },
-  { path: "/analog-clock", element: <AnalogClock /> },
+  {
+    path: "/Mini-Projects-Collection-React/digital-clock",
+    element: <DigitalClock />,
+  },
+  {
+    path: "/Mini-Projects-Collection-React/stop-watch",
+    element: <StopWatch />,
+  },
+  {
+    path: "/Mini-Projects-Collection-React/analog-clock",
+    element: <AnalogClock />,
+  },
 
   /* Forms */
-  { path: "/contact-form", element: <ContactForm /> },
-  { path: "/sign-up-form", element: <SignUpForm /> },
-  { path: "/flight-booker", element: <FlightBooker /> },
-  { path: "/otp-input", element: <OtpInput /> },
-  { path: "/file-uploader", element: <FileUploader /> },
+  {
+    path: "/Mini-Projects-Collection-React/contact-form",
+    element: <ContactForm />,
+  },
+  {
+    path: "/Mini-Projects-Collection-React/sign-up-form",
+    element: <SignUpForm />,
+  },
+  {
+    path: "/Mini-Projects-Collection-React/flight-booker",
+    element: <FlightBooker />,
+  },
+  { path: "/Mini-Projects-Collection-React/otp-input", element: <OtpInput /> },
+  {
+    path: "/Mini-Projects-Collection-React/file-uploader",
+    element: <FileUploader />,
+  },
 
   /* Games */
-  { path: "/memory-card-game", element: <MemoryCardGame /> },
-  { path: "/tic-tac-toe-game", element: <TicTacToeGame /> },
-  { path: "/whack-mole-game", element: <WhackMoleGame /> },
-  { path: "/snake-game", element: <SnakeGame /> },
-  { path: "/rock-paper-scissors", element: <RockPaperScissors /> },
+  {
+    path: "/Mini-Projects-Collection-React/memory-card-game",
+    element: <MemoryCardGame />,
+  },
+  {
+    path: "/Mini-Projects-Collection-React/tic-tac-toe-game",
+    element: <TicTacToeGame />,
+  },
+  {
+    path: "/Mini-Projects-Collection-React/whack-mole-game",
+    element: <WhackMoleGame />,
+  },
+  {
+    path: "/Mini-Projects-Collection-React/snake-game",
+    element: <SnakeGame />,
+  },
+  {
+    path: "/Mini-Projects-Collection-React/rock-paper-scissors",
+    element: <RockPaperScissors />,
+  },
 ]);
 
 export default router;
