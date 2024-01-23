@@ -95,8 +95,8 @@ export default function Home() {
       </section>
 
       {/* coming soon */}
-      <h3>Coming soon below ....</h3>
-      <section className={styles.project_container}>
+      {/* <h3>Coming soon below ....</h3> */}
+      <section className={styles.project_container} style={{ display: "none" }}>
         <Link to="https://sadanandpai.github.io/frontend-mini-challenges/javascript/">
           Sample External Frontend collection
         </Link>
