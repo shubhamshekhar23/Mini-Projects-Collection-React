@@ -8,6 +8,9 @@ export default function AnalogClockContainer(props) {
   const [secDeg, setSecDeg] = useState(0);
 
   useEffect(() => {
+    /* run immediate as setinterval introduce a firstdelay */
+    updateStateBasedOnCurrentTime();
+
     let interval = setInterval(() => {
       updateStateBasedOnCurrentTime();
     }, 1000);
