@@ -5,6 +5,48 @@ import styles from "./home.module.scss";
 export default function Home() {
   return (
     <main className={styles.main}>
+      <h4>Games :</h4>
+      <section className={styles.project_container}>
+        <Link to="/Mini-Projects-Collection-React/whack-mole-game">
+          whack-mole-game
+        </Link>
+        <Link to="/Mini-Projects-Collection-React/memory-card-game">
+          memory-card-game
+        </Link>
+        <Link to="/Mini-Projects-Collection-React/tic-tac-toe-game">
+          tic-tac-toe-game
+        </Link>
+        <Link to="/Mini-Projects-Collection-React/snake-game">Snake Game</Link>
+        <Link to="/Mini-Projects-Collection-React/rock-paper-scissors">
+          Rock-paper-scissor
+        </Link>
+      </section>
+
+      <h4>Advanced Logic apps</h4>
+      <section className={styles.project_container}>
+        <Link to="/Mini-Projects-Collection-React/folder-file-tree">
+          folder-file-tree
+        </Link>
+        <Link to="/Mini-Projects-Collection-React/transfer-list">
+          transfer-list
+        </Link>
+        <Link to="/Mini-Projects-Collection-React/undoable-counter">
+          undoable-counter
+        </Link>
+        <Link to="/Mini-Projects-Collection-React/generate-table">
+          generate-table
+        </Link>
+        <Link className={styles.yet_implement}>Comment-Box</Link>
+        <Link className={styles.yet_implement}>Basic-Calculator</Link>
+        <Link to="/typehead" className={styles.yet_implement}>
+          Google like typehead
+        </Link>
+        <Link className={styles.yet_implement}>Calendar</Link>
+        <Link to="/excel" className={styles.yet_implement}>
+          Microsoft like excel spreadsheet
+        </Link>
+      </section>
+
       <h4>Shared UI Elements</h4>
       <section className={styles.project_container}>
         <Link to="/Mini-Projects-Collection-React/accordion">accordion</Link>
@@ -76,31 +118,6 @@ export default function Home() {
         <Link className={styles.yet_implement}>Password-Strength</Link>
       </section>
 
-      <h4>Advanced Logic apps</h4>
-      <section className={styles.project_container}>
-        <Link to="/Mini-Projects-Collection-React/folder-file-tree">
-          folder-file-tree
-        </Link>
-        <Link to="/Mini-Projects-Collection-React/transfer-list">
-          transfer-list
-        </Link>
-        <Link to="/Mini-Projects-Collection-React/undoable-counter">
-          undoable-counter
-        </Link>
-        <Link to="/Mini-Projects-Collection-React/generate-table">
-          generate-table
-        </Link>
-        <Link className={styles.yet_implement}>Comment-Box</Link>
-        <Link className={styles.yet_implement}>Basic-Calculator</Link>
-        <Link to="/typehead" className={styles.yet_implement}>
-          Google like typehead
-        </Link>
-        <Link className={styles.yet_implement}>Calendar</Link>
-        <Link to="/excel" className={styles.yet_implement}>
-          Microsoft like excel spreadsheet
-        </Link>
-      </section>
-
       <h4>Time apps</h4>
       <section className={styles.project_container}>
         <Link to="/Mini-Projects-Collection-React/digital-clock">
@@ -133,23 +150,6 @@ export default function Home() {
           className={styles.yet_implement}
         >
           Render dynamic forms using config
-        </Link>
-      </section>
-
-      <h4>Games :</h4>
-      <section className={styles.project_container}>
-        <Link to="/Mini-Projects-Collection-React/whack-mole-game">
-          whack-mole-game
-        </Link>
-        <Link to="/Mini-Projects-Collection-React/memory-card-game">
-          memory-card-game
-        </Link>
-        <Link to="/Mini-Projects-Collection-React/tic-tac-toe-game">
-          tic-tac-toe-game
-        </Link>
-        <Link to="/Mini-Projects-Collection-React/snake-game">Snake Game</Link>
-        <Link to="/Mini-Projects-Collection-React/rock-paper-scissors">
-          Rock-paper-scissor
         </Link>
       </section>
 
