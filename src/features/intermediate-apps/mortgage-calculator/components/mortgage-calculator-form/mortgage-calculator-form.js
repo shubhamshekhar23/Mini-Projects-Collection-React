@@ -25,6 +25,14 @@ export default function MortgageCalculatorForm(props) {
 
   function onSubmit(e) {
     e.preventDefault();
+    if (
+      formData.loanAmount == 0 ||
+      formData.annualInterestRate == 0 ||
+      formData.loanTerm == 0
+    ) {
+      alert("Values canot be 0");
+      return;
+    }
     props.handleSubmit(formData);
   }
 

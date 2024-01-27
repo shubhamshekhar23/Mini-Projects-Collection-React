@@ -1,3 +1,8 @@
 .mortgage_calculator_form_container {
-
+  width: 500px;
+  div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
 }
