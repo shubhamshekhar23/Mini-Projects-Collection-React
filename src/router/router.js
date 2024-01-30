@@ -43,6 +43,7 @@ import SnakeGame from "../features/games/snake-game/snake-game";
 import Drawer from "../features/shared-elements/drawer/drawer";
 import RockPaperScissors from "../features/games/rock-paper-scissors/rock-paper-scissors";
 import FileUploader from "../features/form-apps/file-uploader/file-uploader";
+import SelfMultiTyping from "../features/intermediate-apps/self-multi-typing/self-multi-typing";
 
 const router = createBrowserRouter([
   {
@@ -132,6 +133,10 @@ const router = createBrowserRouter([
   {
     path: "/Mini-Projects-Collection-React/mortgage-calculator",
     element: <MortgageCalculator />,
+  },
+  {
+    path: "/Mini-Projects-Collection-React/self-multi-typing",
+    element: <SelfMultiTyping />,
   },
 
   /* Advanced Logic Apps */

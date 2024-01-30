@@ -114,6 +114,9 @@ export default function Home() {
         <Link to="/Mini-Projects-Collection-React/mortgage-calculator">
           mortgage-calculator
         </Link>
+        <Link to="/Mini-Projects-Collection-React/self-multi-typing">
+          self-multi-typing
+        </Link>
         <Link className={styles.yet_implement}>Telephone-formatter</Link>
         <Link className={styles.yet_implement}>Password-Strength</Link>
       </section>
